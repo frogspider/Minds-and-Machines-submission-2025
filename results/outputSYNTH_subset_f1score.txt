@@ -1,0 +1,20 @@
+--- For this experiment, we trained the algorithms with the following configuration --- 
+Dataset loaded :  datasets/Synth_set.csv
+NIT criterion data used for training:  True
+Criteria data used for training :  True
+Action data used for training:  True
+Post-criteria data used for training:  False
+Computed metric:  f1-score
+--- ---
+\multicolumn{1}{|l|}{\textbf{Logistic Regression}} & $0.592 \pm 0.136$ & $0.64 \pm 0.115$ & $0.802 \pm 0.103$ & $0.77 \pm 0.126$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{KNN}} & $0.439 \pm 0.102$ & $0.439 \pm 0.126$ & $0.428 \pm 0.123$ & $0.61 \pm 0.078$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{SVC with linear kernel}} & $0.191 \pm 0.071$ & $0.359 \pm 0.132$ & $0.238 \pm 0.076$ & $0.623 \pm 0.136$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{SVC with rbf kernel}} & $0.18 \pm 0.041$ & $0.176 \pm 0.091$ & $0.173 \pm 0.04$ & $0.187 \pm 0.05$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{Gaussian Process}} & $0.397 \pm 0.094$ & $0.451 \pm 0.12$ & $0.502 \pm 0.067$ & $0.634 \pm 0.099$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{Decision Tree}} & $0.639 \pm 0.11$ & $0.59 \pm 0.108$ & $0.468 \pm 0.12$ & $1.0 \pm 0.0$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{Random forest}} & $0.444 \pm 0.134$ & $0.496 \pm 0.127$ & $0.417 \pm 0.111$ & $0.588 \pm 0.058$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{MLP}} & $0.639 \pm 0.126$ & $0.628 \pm 0.143$ & $0.714 \pm 0.103$ & $0.913 \pm 0.114$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{QDA}} & $0.509 \pm 0.125$ & $0.317 \pm 0.113$ & $0.396 \pm 0.112$ & $0.588 \pm 0.102$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{Gradient Boosting}} & $0.737 \pm 0.069$ & $0.641 \pm 0.132$ & $0.559 \pm 0.109$ & $1.0 \pm 0.0$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{XG Boosting}} & $0.739 \pm 0.144$ & $0.588 \pm 0.091$ & $0.598 \pm 0.169$ & $0.993 \pm 0.032$ \\ \hline
+\multicolumn{1}{|l|}{\textbf{Random dummy}} & $0.339 \pm 0.116$ & $0.33 \pm 0.1$ & $0.321 \pm 0.129$ & $0.311 \pm 0.092$ \\ \hline

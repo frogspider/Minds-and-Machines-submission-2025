@@ -1,0 +1,14 @@
+--- For this experiment, we trained the algorithms with the following configuration --- 
+Dataset loaded :  datasets/Synth_set.csv
+NIT criterion data used for training:  True
+Criteria data used for training :  True
+Action data used for training:  True
+Post-criteria data used for training:  False
+Computed metric:  generational distance + confusion matrix
+--- ---
+Generational distance for classifier  Logistic Regression :  1.894 + 0.017
+Confusion matrix  for classifier  Logistic Regression :  [0.896, 0.104, 0.166, 0.834] + [0.018, 0.018, 0.025, 0.025]
+The order in confusion matrix is : true negatives, false positives, false negatives, true positives (all normalised) 
+Generational distance for classifier  Random dummy :  2.612 + 0.066
+Confusion matrix  for classifier  Random dummy :  [0.678, 0.322, 0.68, 0.32] + [0.016, 0.016, 0.02, 0.02]
+The order in confusion matrix is : true negatives, false positives, false negatives, true positives (all normalised) 
